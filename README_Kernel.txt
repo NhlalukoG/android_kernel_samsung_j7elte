@@ -21,4 +21,8 @@ HOW TO BUILD KERNEL FOR SM-J700F_MEA_MM_TUR
 	- change current directory to Kernel/arch/arm/boot
 	- type following command
 	$ tar cvf SM-J700F_MEA_MM_TUR.tar zImage
+
+5. To make Kernel Fully permissive, edited command line in Ramdisk and add the
+   following line
+	- enforcing=0 androidboot.selinux=permissive
 #################################################################################
